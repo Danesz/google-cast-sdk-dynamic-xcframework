@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Danesz/google-cast-sdk-dynamic-xcframework'
   s.license          = { type: 'MIT', file: 'LICENSE' }
   s.author           = { 'Daniel Dallos' => 'github@danieldallos.com' }
-  s.source           = { git: 'https://github.com/Danesz/google-cast-sdk-dynamic-xcframework.git' }
+  s.source           = { git: 'https://github.com/Danesz/google-cast-sdk-dynamic-xcframework.git', tag: s.version }
 
   s.platform         = :ios, '12.0'
   s.vendored_frameworks = 'GoogleCast.xcframework'
