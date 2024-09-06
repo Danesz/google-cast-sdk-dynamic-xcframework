@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'google-cast-sdk-dynamic-xcframework'
-  s.version          = '4.8.0'
+  s.version          = '4.8.3'
   s.summary          = '(Unofficial) Google Cast SDK - Dynamic XCFramework with Guest Mode - with Apple Silicon support'
 
   s.description      = <<-DESC
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.author           = { 'Daniel Dallos' => 'github@danieldallos.com' }
   s.source           = { git: 'https://github.com/Danesz/google-cast-sdk-dynamic-xcframework.git', tag: s.version }
 
-  s.platform         = :ios, '13.0'
+  s.platform         = :ios, '14.0'
   s.vendored_frameworks = 'GoogleCast.xcframework'
 end
